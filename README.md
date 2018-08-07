@@ -15,7 +15,7 @@ This child theme provides the front end requeriment for Books for languages.
 
 ## Description
 
-With use of this child theme you will receive all the Books for languages front end modifications. The child theme require Mac Luga annd other specifical plugins for some specifical situations.
+With use of this child theme you will receive all the Books for languages front end modifications. The child theme requires pressbooks-book theme (McLuhan) installed and other plugins for the activation of all the features.
 
 ## Installation
 
