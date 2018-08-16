@@ -15,12 +15,18 @@ This child theme provides the front end requeriment for Books for languages.
 
 ## Description
 
-With use of this child theme you will receive all the Books for languages front end modifications. The child theme requires pressbooks-book theme (McLuhan) installed and other plugins for the activation of all the features.
+With use of this child theme you will receive all the Books for languages front end modifications. The child theme requires pressbooks-aldine theme (Aldine) installed.
 
 ## Installation
 
 1. Upload theme folder to /wp-content/themes/ folder in your web-site file-system.
 1. Activate it from 'Themes page' in your website.
+
+## Changes comparing to parent theme
+
+* Changed logo in header (static image)
+* Footer (links of Books4Languages and images)
+* Catalog page (license and subject filters eleminated)
 
 ## Frequently Asked Questions
 
@@ -29,11 +35,6 @@ With use of this child theme you will receive all the Books for languages front 
 
 ## Screenshots
 
-### Settings page in network administration
-![Settings Page Network](/assets/screenshot-2.png)
-
-### Settings page in single site (General Settings page)
-![Settings Page](/assets/screenshot-1.png)
 
 
 ## Changelog
