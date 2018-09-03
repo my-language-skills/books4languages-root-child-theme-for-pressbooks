@@ -3,15 +3,15 @@
 
 * Contributors: danzhik
 * Donate link:
-* Tags: revisions,cleaning
+* Tags: 
 * Requires at least: 3.0.1
 * Tested up to: 4.9.8
 * Requires PHP: 7.2.0
-* Stable tag: 0.0
+* Stable tag: 0.1
 * License: GNU 3.0
 * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-This child theme provides the front end requeriment for Books for languages.
+This child theme provides the front end requeriments for Books For Languages.
 
 ## Description
 
