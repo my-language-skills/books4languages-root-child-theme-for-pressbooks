@@ -11,7 +11,7 @@
 * License: GNU 3.0
 * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-This child theme provides the front end requeriments for Books For Languages.
+This child theme for Aldine theme provides the front end requeriments for Books For Languages.
 
 ## Description
 
