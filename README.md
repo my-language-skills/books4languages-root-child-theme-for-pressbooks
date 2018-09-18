@@ -27,6 +27,7 @@ With use of this child theme you will receive all the Books for languages front 
 * Changed logo in header (static image)
 * Footer (links of Books4Languages and images)
 * Catalog page (license and subject filters eleminated)
+* 'Sign Up' link in header and 'Your Membership' links in footer for RCP
 
 ## Frequently Asked Questions
 
