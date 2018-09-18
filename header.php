@@ -70,6 +70,11 @@
 					'menu_id' => 'nav-primary-menu',
 					'menu_class' => 'nav--primary',
 				] ); ?>
+				<?php if (! is_user_logged_in()):?>
+					<script type="text/javascript">
+						jQuery("#nav-primary-menu").append("<li><a href='./register/'>Sign Up</a></li>");
+					</script>
+				<?php endif; ?>
 			</div>
 		</div>
 	</header> <!-- .header -->
