@@ -72,7 +72,7 @@
 				] ); ?>
 				<?php if (! is_user_logged_in()):?>
 					<script type="text/javascript">
-						jQuery("#nav-primary-menu").append("<li><a href='./register/'>Sign Up</a></li>");
+						jQuery("#nav-primary-menu").append("<li><a href='/register/'>Sign Up</a></li>");
 					</script>
 				<?php endif; ?>
 			</div>

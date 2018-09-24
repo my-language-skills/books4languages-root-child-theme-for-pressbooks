@@ -73,7 +73,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://books4languages.com/legal/"><?php _e( 'Policy', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="./register/your-membership"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
+					<li><a href="/register/your-membership"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
