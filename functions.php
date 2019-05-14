@@ -15,7 +15,11 @@ function pbrc_login_logo() { ?>
 <?php }
 add_action( 'login_enqueue_scripts', 'pbrc_login_logo', 1000 );
 
-
+/*
+* Auto update from github
+*
+* @since 0.1
+*/
 require 'vendor/plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 		'https://github.com/my-language-skills/books4languages-root-child-theme-for-pressbooks/',
