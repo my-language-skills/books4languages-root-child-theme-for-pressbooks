@@ -14,3 +14,11 @@ function pbrc_login_logo() { ?>
     </style>
 <?php }
 add_action( 'login_enqueue_scripts', 'pbrc_login_logo', 1000 );
+
+
+require 'vendor/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+		'https://github.com/my-language-skills/books4languages-root-child-theme-for-pressbooks/',
+		__FILE__,
+		'books4languages-root-child-theme-for-pressbooks'
+);
