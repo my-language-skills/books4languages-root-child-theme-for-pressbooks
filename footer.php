@@ -20,9 +20,11 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 
 	</div><!-- #content -->
 
-	<?php if ( $pb_network_contact_form ) :
+	<?php
+	if ( $pb_network_contact_form ) :
 		include( locate_template( 'partials/contact-form.php' ) );
-	endif; ?>
+	endif;
+	?>
 
 	<footer class="footer" role="contentinfo">
 	<div class="footer__inner">
@@ -37,18 +39,22 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 					<?php dynamic_sidebar( 'network-footer-block-2' ); ?>
 					<div class="social-media">
 						<?php if ( ! empty( $network_facebook ) ) { ?>
+							<?php /* translators: %s network name */ ?>
 							<a class="facebook" href="<?php echo $network_facebook; ?>" title="<?php printf( __( '%s on Facebook', 'pressbooks-aldine' ), get_bloginfo( 'name', 'display' ) ); ?>">
 								<svg class="icon--svg">
 									<use xlink:href="#facebook" />
 								</svg>
+								<?php /* translators: %s network name */ ?>
 								<span class="screen-reader-text"><?php printf( __( '%s on Facebook', 'pressbooks-aldine' ), get_bloginfo( 'name', 'display' ) ); ?></span>
 							</a>
 						<?php } ?>
 						<?php if ( ! empty( $network_twitter ) ) { ?>
+							<?php /* translators: %s network name */ ?>
 							<a class="twitter" href="<?php echo $network_twitter; ?>" title="<?php printf( __( '%s on Twitter', 'pressbooks-aldine' ), get_bloginfo( 'name', 'display' ) ); ?>">
 								<svg class="icon--svg">
 									<use xlink:href="#twitter" />
 								</svg>
+								<?php /* translators: %s network name */ ?>
 								<span class="screen-reader-text"><?php printf( __( '%s on Twitter', 'pressbooks-aldine' ), get_bloginfo( 'name', 'display' ) ); ?></span>
 							</a>
 						<?php } ?>
@@ -60,36 +66,38 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 			</div>
 		</div>
 		<section class="footer__pressbooks">
-		  <a class="footer__pressbooks__icon" href="https://books4languages.com/" title="Books For Languages">
-				<?php // TODO ?>
-				<img src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/icon-bfl.png">
+			<a class="footer__pressbooks__icon" href="https://open.books4languages.com/" title="Pressbooks">
+
+				<img src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/icon-bfl.png">
 			</a>
 			<div class="footer__pressbooks__links">
-				
-				<?php /* translators: %s: Pressbooks */ ?>
+				<?php /* translators: %s Pressbooks */ ?>
 				<p class="footer__pressbooks__links__title"><?php printf( __( 'Insolently created with use of %s', 'pressbooks-book' ), '<span class="pressbooks">Wordpress and Pressbooks</span>' ); ?></p>
 				<ul class="footer__pressbooks__links__list">
-					<li><a href="https://books4languages.com/"><?php _e( 'Books4Languages', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://open.books4languages.com/"><?php _e( 'Books4Languages', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://books4languages.com/legal/"><?php _e( 'Policy', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.wordpress.com/legal/privacy-policy/"><?php _e( 'Privacy Policy', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="/register/your-membership"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
+					<li><a href="https://open.books4languages.com/register/your-membership/"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
-				<a class="facebook" href="https://www.facebook.com/Books4Languages/" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>">
+				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>">
 					<svg class="icon--svg">
 						<use xlink:href="#facebook" />
 					</svg>
-					<span class="screen-reader-text"><?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?></span>
+					<span class="screen-reader-text"><?php _e( 'Pressbooks on Facebook', 'pressbooks-aldine' ); ?></span>
 				</a>
-				<a class="twitter" href="https://twitter.com/bookslanguages" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>">
+
+				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>">
 					<svg class="icon--svg">
 						<use xlink:href="#twitter" />
 					</svg>
-				<span class="screen-reader-text"><?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?></span></a>
-			</div>
+					<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
+				</a>
 
+			</div>
 		</section>
 	</div><!-- .container -->
 </footer><!-- .footer -->

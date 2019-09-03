@@ -1,17 +1,16 @@
 # Books4Languages Root Child Theme for PressBooks
 
-
-* Contributors: danzhik
-* Donate link:
-* Tags: 
+* Contributors: @danzhik, @!ndeed
+* Donate link: https://opencollective.com/mylanguageskills
+* Tags: pressbooks, wordpress, theme, books4languages
 * Requires at least: 3.0.1
-* Tested up to: 4.9.8
-* Requires PHP: 7.2.0
-* Stable tag: 0.1
+* Tested up to: 5.2.2
+* Requires PHP: 5.6.0
+* Stable tag: 0.2
 * License: GNU 3.0
 * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-This child theme for Aldine theme provides the front end requeriments for Books For Languages.
+This is child theme of Aldine theme (Pressbooks) provides the front end requirements for Books For Languages.
 
 ## Description
 
@@ -26,20 +25,55 @@ With use of this child theme you will receive all the Books for languages front 
 
 * Changed logo in header (static image)
 * Footer (links of Books4Languages and images)
-* Catalog page (license and subject filters eleminated)
+* Catalog page (license and subject filters eliminated)
 * 'Sign Up' link in header and 'Your Membership' links in footer for RCP
 
 ## Frequently Asked Questions
 
-### abc?
-
-
 ## Screenshots
-
-
 
 ## Changelog
 
+### 0.2
+* New child theme. (Rebuilding from the bottom-up.)
 
+* **ADDITIONS**
+    * Re-added Catalog page (license and subject filters eliminated) from v0.1
+    * Re-added 'Sign Up' link in header and 'Your Membership' links in footer for RCP from v0.1
+    * Added 'Privacy Policy' link in the page footer
+
+
+* **REMOVED**
+    * Catalog page (license and subject filters eliminated)
+s
+* **ENHANCEMENT**
+    * Updated header logo (static image)
+    * Updated footer social links and added target tag to open in new tab
+    * Updated Sign in page logo
+
+* **List of Files revised**
+	 * footer.php
+   * header.php
+   * content-page-catalog.php
+   * functions.php
+
+### 0.1
+* No longer in use.
+
+* **ADDITIONS**
+	  * Footer (links of Books4Languages and images)
+    * 'Sign Up' link in header and 'Your Membership' links in footer for RCP  
+
+* **REMOVED**
+    * Catalog page (license and subject filters eliminated)
+
+* **ENHANCEMENT**
+    * Changed logo in header (static image)
+
+* **List of Files revised**
+	 * footer.php
+   * functions.php
+   * header.php
+   * content-page-catalog.php
 
 ## Upgrade Notice

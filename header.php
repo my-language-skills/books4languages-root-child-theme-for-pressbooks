@@ -42,7 +42,8 @@
 </svg>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pressbooks-aldine' ); ?></a>
-	<header class="header" role="banner" style="background-image: url(<?php
+	<header class="header" role="banner" style="background-image: url(
+	<?php
 	if ( is_front_page() ) {
 		if ( has_header_image() ) {
 			echo( get_header_image() );
@@ -51,30 +52,40 @@
 		}
 	} else {
 		echo get_template_directory_uri() . '/dist/images/catalog-header.jpg';
-	} ?>);">
+	}
+	?>
+	);">
 		<div class="header__inside">
 			<div class="header__brand">
+
 				<!-- DYNAMIC LOGO REMOVED WITH STATIC -->
-				<a aria-label="Catalog Books 4 Languages" href="https://open.books4languages.com">
-					<img width="200" height="30" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/header-logo.png">
-				</a>
+							<a aria-label="Catalog Books 4 Languages" href="https://open.books4languages.com">
+								<img width="200" height="20" src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/header-logo.png" alt="header_logo">
+							</a>
 			</div>
+
+
 			<div class="header__nav">
 				<a class="header__nav-icon js-header-nav-toggle" href="#navigation"><?php _e( 'Toggle Menu', 'pressbooks-aldine' ); ?><span class="header__nav-icon__icon"></span></a>
-				<?php wp_nav_menu( [
-					'theme_location' => 'primary-menu',
-					'fallback_cb' => '\Aldine\Helpers\default_menu',
-					'container' => 'nav',
-					'container_class' => 'js-header-nav',
-					'container_id' => 'navigation',
-					'menu_id' => 'nav-primary-menu',
-					'menu_class' => 'nav--primary',
-				] ); ?>
+				<?php
+				wp_nav_menu(
+					[
+						'theme_location' => 'primary-menu',
+						'fallback_cb' => '\Aldine\Helpers\default_menu',
+						'container' => 'nav',
+						'container_class' => 'js-header-nav',
+						'container_id' => 'navigation',
+						'menu_id' => 'nav-primary-menu',
+						'menu_class' => 'nav--primary',
+					]
+				);
+				?>
 				<?php if (! is_user_logged_in()):?>
-					<script type="text/javascript">
-						jQuery("#nav-primary-menu").append("<li><a href='/register/'>Sign Up</a></li>");
-					</script>
-				<?php endif; ?>
+							<script type="text/javascript">
+								jQuery("#nav-primary-menu").append("<li><a href='/register/'>Sign Up</a></li>");
+							</script>
+						<?php endif; ?>
+
 			</div>
 		</div>
 	</header> <!-- .header -->
