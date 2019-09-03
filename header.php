@@ -58,12 +58,17 @@
 		<div class="header__inside">
 			<div class="header__brand">
 
-				<!-- DYNAMIC LOGO REMOVED WITH STATIC -->
-							<a aria-label="Catalog Books 4 Languages" href="https://open.books4languages.com">
-								<img width="200" height="20" src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/header-logo.png" alt="header_logo">
+<!--
+-				Dynamic logo changed to static.
+-
+-				SINCE v0.2
+-->
+							<a aria-label="Books 4 Languages" href="https://open.books4languages.com">
+								<img width="200" height="20" src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/header-logo.png" alt="Books4Languages logo">
 							</a>
-			</div>
+<!-- End of modified code -->
 
+			</div>
 
 			<div class="header__nav">
 				<a class="header__nav-icon js-header-nav-toggle" href="#navigation"><?php _e( 'Toggle Menu', 'pressbooks-aldine' ); ?><span class="header__nav-icon__icon"></span></a>
@@ -80,11 +85,18 @@
 					]
 				);
 				?>
+
+<!--
+-				Function displays 'Sign Up' menu slug if user not logged in
+-
+-				SINCE v0.1
+-->
 				<?php if (! is_user_logged_in()):?>
 							<script type="text/javascript">
 								jQuery("#nav-primary-menu").append("<li><a href='/register/'>Sign Up</a></li>");
 							</script>
 						<?php endif; ?>
+<!-- End of modified code -->
 
 			</div>
 		</div>

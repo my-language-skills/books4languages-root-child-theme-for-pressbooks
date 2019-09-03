@@ -38,7 +38,7 @@ With use of this child theme you will receive all the Books for languages front 
 
 * **REMOVED**
     * Catalog page (license and subject filters eliminated)
-s
+
 * **ENHANCEMENT**
     * Updated header logo (static image)
     * Updated footer social links and added target tag to open in new tab
@@ -70,3 +70,6 @@ s
    * content-page-catalog.php
 
 ## Upgrade Notice
+
+---
+[Up](/Readme.md)

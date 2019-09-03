@@ -11,11 +11,9 @@
 ?>
 
 <?php
-
 $network_facebook = get_option( 'pb_network_facebook' );
 $network_twitter = get_option( 'pb_network_twitter' );
 $pb_network_contact_form = get_option( 'pb_network_contact_form' );
-
 ?>
 
 	</div><!-- #content -->
@@ -67,12 +65,25 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 		</div>
 		<section class="footer__pressbooks">
 			<a class="footer__pressbooks__icon" href="https://open.books4languages.com/" title="Pressbooks">
-
+				<?php // TODO ?>
+<!--
+-				Updated logo with company logo.
+-
+-				SINCE v0.1
+-->
 				<img src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/icon-bfl.png">
 			</a>
 			<div class="footer__pressbooks__links">
 				<?php /* translators: %s Pressbooks */ ?>
 				<p class="footer__pressbooks__links__title"><?php printf( __( 'Insolently created with use of %s', 'pressbooks-book' ), '<span class="pressbooks">Wordpress and Pressbooks</span>' ); ?></p>
+<!-- End of modified code -->
+
+<!--
+-				Updated links to correct ones.
+-				Privacy Policy menu slug added.(v0.2)
+-
+-				SINCE v0.1
+-->
 				<ul class="footer__pressbooks__links__list">
 					<li><a href="https://open.books4languages.com/"><?php _e( 'Books4Languages', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
@@ -96,6 +107,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 					</svg>
 					<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
 				</a>
+<!-- End of modified code -->
 
 			</div>
 		</section>

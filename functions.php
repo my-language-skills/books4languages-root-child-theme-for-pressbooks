@@ -6,7 +6,11 @@ License: GPL v3 or later
 GitHub Theme URI: my-language-skills/books4languages-book-child-theme-for-pressbooks
 */
 
-
+/**
+* Function for correct display of company logo on login page.
+*
+* SINCE v0.1
+*/
 function pbrc_login_logo() { ?>
 
     <style type="text/css">
@@ -19,13 +23,16 @@ function pbrc_login_logo() { ?>
         	padding-bottom: 30px;
         }
     </style>
-
 <?php }
 add_action( 'login_enqueue_scripts', 'pbrc_login_logo', 1000 );
+/** End of modified code */
 
-
-
- function my_theme_enqueue_styles() {
+/**
+* Enqueue the styles
+*
+* SINCE v0.2
+*/
+function my_theme_enqueue_styles() {
 
      $parent_style = 'parent-style'; // This is 'aldine' for the Aldine theme.
 
@@ -37,4 +44,5 @@ add_action( 'login_enqueue_scripts', 'pbrc_login_logo', 1000 );
      );
  }
 
- add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+/** End of modified code */
