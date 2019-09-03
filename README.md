@@ -21,13 +21,6 @@ With use of this child theme you will receive all the Books for languages front 
 1. Upload theme folder to /wp-content/themes/ folder in your web-site file-system.
 1. Activate it from 'Themes page' in your website.
 
-## Changes comparing to parent theme
-
-* Changed logo in header (static image)
-* Footer (links of Books4Languages and images)
-* Catalog page (license and subject filters eliminated)
-* 'Sign Up' link in header and 'Your Membership' links in footer for RCP
-
 ## Frequently Asked Questions
 
 ## Screenshots
