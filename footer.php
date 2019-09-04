@@ -71,7 +71,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 -
 -				SINCE v0.1
 -->
-				<img src="/wp-content/themes/books4languages-root-child-theme-for-pressbook/assets/images/icon-bfl.png">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon-bfl.png">
 			</a>
 			<div class="footer__pressbooks__links">
 				<?php /* translators: %s Pressbooks */ ?>
