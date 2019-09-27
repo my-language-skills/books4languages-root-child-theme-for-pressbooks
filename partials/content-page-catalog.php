@@ -13,7 +13,12 @@
 <section class="network-catalog">
 	<form role="form" class="filter-sort" method="get">
 		<input type="hidden" name="paged" value="<?php echo $current_page; ?>" />
-		<!-- SUBJECT AND LICENSE FILTERS DELETED-->
+		<!--
+		-				DELETED: SUBJECT AND LICENSE FILTERS
+		-
+		-				SINCE v0.1
+		-->
+
 		<fieldset class="sorts">
 			<h2><?php _e( 'Sort by', 'pressbooks-aldine' ); ?></h2>
 			<?php
