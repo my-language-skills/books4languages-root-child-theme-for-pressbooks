@@ -1,5 +1,6 @@
 CHANGELOG
-#Version 1.0
+
+# Version 1.0
 * No longer in use.
 
 * **ADDITIONS**
