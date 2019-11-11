@@ -1,6 +1,6 @@
 # Books4Languages Root Child Theme for PressBooks
 
-* Contributors: @danzhik, @!ndeed
+* Contributors: @danzhik, @lukastonhajzer
 * Donate link: https://opencollective.com/mylanguageskills
 * Tags: pressbooks, wordpress, theme, books4languages
 * Requires at least: 3.0.1
@@ -71,5 +71,3 @@ With use of this child theme you will receive all the Books for languages front 
 
 ## Upgrade Notice
 
----
-[Up](/Readme.md)
