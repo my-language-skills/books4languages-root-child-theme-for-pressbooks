@@ -71,7 +71,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 -
 -				SINCE v0.1
 -->
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon-bfl.png">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon-bfl.png"   alt="books4languages">
 			</a>
 			<div class="footer__pressbooks__links">
 				<?php /* translators: %s Pressbooks */ ?>
@@ -94,14 +94,14 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
-				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>">
+				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
 					<svg class="icon--svg">
 						<use xlink:href="#facebook" />
 					</svg>
 					<span class="screen-reader-text"><?php _e( 'Pressbooks on Facebook', 'pressbooks-aldine' ); ?></span>
 				</a>
 
-				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>">
+				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
 					<svg class="icon--svg">
 						<use xlink:href="#twitter" />
 					</svg>
