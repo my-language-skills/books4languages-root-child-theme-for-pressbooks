@@ -44,5 +44,5 @@ function my_theme_enqueue_styles() {
      );
  }
 
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_styles', 'my_theme_enqueue_styles' );
 /** End of modified code */

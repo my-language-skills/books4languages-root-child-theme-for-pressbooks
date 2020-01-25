@@ -71,7 +71,8 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 -
 -				SINCE v0.1
 -->
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icon-bfl.png"   alt="books4languages">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/empty.gif" style="width: 44px; height: 44px;
+				background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -10px -74px;" alt="books4languages">
 			</a>
 			<div class="footer__pressbooks__links">
 				<?php /* translators: %s Pressbooks */ ?>
@@ -95,17 +96,15 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 			</div>
 			<div class="footer__pressbooks__social">
 				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
-					<svg class="icon--svg">
-						<use xlink:href="#facebook" />
-					</svg>
+					<img id="facebook-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 45px; height: 44px;
+			    background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -10px -10px;" alt="facebook bfl">
 					<span class="screen-reader-text"><?php _e( 'Pressbooks on Facebook', 'pressbooks-aldine' ); ?></span>
 				</a>
 
 				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
-					<svg class="icon--svg">
-						<use xlink:href="#twitter" />
-					</svg>
-					<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
+					<img id="facebook-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 47px; height: 42px;
+				    background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -75px -10px;" alt="twitter bfl">
+						<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
 				</a>
 <!-- End of modified code -->
 
