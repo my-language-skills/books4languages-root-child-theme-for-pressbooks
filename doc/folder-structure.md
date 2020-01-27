@@ -3,8 +3,12 @@
 themes/books4languages-root-child-theme-for-pressbooks/                         # → Plugin root
 ├── assets                                                                      # → Assets folder
 │   ├── images                                                                  # → Images folder
+│   │    ├── css_sprites.png                                                    # → Sprite file png
+│   │    ├── empty.gif                                                          # → Empty file gif
+│   │    ├── facebook-logo.png                                                  # → Facebook logo file png
 │   │    ├── header-logo.png                                                    # → Header logo file png
-│   │    └── icon-bfl.png                                                       # → Icon file png
+│   │    ├── icon-bfl.png                                                       # → Icon books4languages file png
+│   │    └── twitter-logo.png                                                   # → Twitter file png
 │   └── index.php                                                               # → empty index file php
 ├── doc                                                                         # → Doc folder
 │   └── folder-structure.md                                                     # → Folder structure file md

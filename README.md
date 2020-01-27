@@ -26,6 +26,9 @@ With use of this child theme you will receive all the Books for languages front 
 ## Screenshots
 
 ## Changelog
+* **MODIFICATIONS**
+* new sprite css file for footer books4languages, facebook, twitter icons.
+* external links has nopeener to improve security.
 
 ### 0.2
 * New child theme. (Rebuilding from the bottom-up.)
