@@ -102,7 +102,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 				</a>
 
 				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
-					<img id="facebook-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 47px; height: 42px;
+					<img id="twitter-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 47px; height: 42px;
 				    background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -75px -10px;" alt="twitter bfl">
 						<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
 				</a>
