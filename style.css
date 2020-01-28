@@ -10,3 +10,20 @@ License URI:        https://github.com/pressbooks/pressbooks-aldine/tree/master/
 Template:           pressbooks-aldine
 GitHub Theme URI:   my-language-skills/books4languages-root-child-theme-for-pressbooks
 */
+
+
+
+#facebook_icon_footer {
+    width: 24px; height: 24px;
+    background: url('../books4languages-book-child-theme-for-pressbooks/assets/images/css_sprites_footer.png') -10px -74px;
+  }
+
+#twitter_icon_footer {
+    width: 24px; height: 24px;
+    background: url('../books4languages-book-child-theme-for-pressbooks/assets/images/css_sprites_footer.png') -74px -10px;
+}
+
+#bfl_icon_footer {
+    width: 44px; height: 44px;
+    background: url('../books4languages-book-child-theme-for-pressbooks/assets/images/css_sprites_footer.png') -10px -10px;
+}
