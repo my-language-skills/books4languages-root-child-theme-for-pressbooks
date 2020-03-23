@@ -95,16 +95,16 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
-				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books For Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
+				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books4Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
 						<img id="facebook-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 24px; height: 24px;;
 			    	background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -10px -74px;" alt="facebook bfl">
-					<span class="screen-reader-text"><?php _e( 'Pressbooks on Facebook', 'pressbooks-aldine' ); ?></span>
+					<span class="screen-reader-text"><?php _e( 'Books4Languages on Facebook', 'pressbooks-aldine' ); ?></span>
 				</a>
 
-				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books For Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
+				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books4Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
 					<img id="twitter-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 24px; height: 24px;
 				    background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -74px -10px;" alt="twitter bfl">
-						<span class="screen-reader-text"><?php _e( 'Pressbooks on Twitter', 'pressbooks-aldine' ); ?></span>
+						<span class="screen-reader-text"><?php _e( 'Books4Languages on Twitter', 'pressbooks-aldine' ); ?></span>
 				</a>
 <!-- End of modified code -->
 
