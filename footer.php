@@ -64,7 +64,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 			</div>
 		</div>
 		<section class="footer__pressbooks">
-			<a class="footer__pressbooks__icon" href="https://open.books4languages.com/" title="Pressbooks">
+			<a class="footer__pressbooks__icon" href="https://books4languages.com/" title="Books4Languages">
 				<?php // TODO ?>
 <!--
 -				Updated logo with company logo.
@@ -86,10 +86,10 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 -				SINCE v0.1
 -->
 				<ul class="footer__pressbooks__links__list">
-					<li><a href="https://open.books4languages.com/"><?php _e( 'Books4Languages', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.com/"><?php _e( 'Books4Languages', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://books4languages.com/legal/"><?php _e( 'Policy', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.wordpress.com/legal/privacy-policy/"><?php _e( 'Privacy Policy', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.com/legal/privacy-policy/"><?php _e( 'Privacy Policy', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://open.books4languages.com/register/your-membership/"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
 				</ul>
