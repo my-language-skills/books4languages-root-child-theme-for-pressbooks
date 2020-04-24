@@ -88,11 +88,13 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 				<ul class="footer__pressbooks__links__list">
 					<<li><a href="https://books4languages.com/"><?php _e( 'Home', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/legal/"><?php _e( 'Policy', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/legal/privacy-policy/"><?php _e( 'Privacy Policy', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.com/legal/"><?php _e( 'Legal', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.com/legal/privacy-policy/"><?php _e( 'Privacy', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
 					<li><a href="https://books4languages.com/contact/"><?php _e( 'Contact', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://open.books4languages.com/register/your-membership/"><?php _e( 'Your Membership', 'pressbooks-book' ); ?></a> </li>
+					<li><a href="https://open.books4languages.com/register/your-membership/"><?php _e( 'Membership', 'pressbooks-book' ); ?></a> |</li>
+					<li><a href="https://books4languages.com/newsletter/"><?php _e( 'Newsletter', 'pressbooks-book' ); ?></a>
+
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
