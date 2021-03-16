@@ -64,7 +64,7 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 			</div>
 		</div>
 		<section class="footer__pressbooks">
-			<a class="footer__pressbooks__icon" href="https://books4languages.com/" title="Books4Languages">
+			<a class="footer__pressbooks__icon" onclick="ga('send', 'event', 'footer', 'aldine', 'homepage', 0);" href="https://books4languages.com/" title="Books4Languages">
 				<?php // TODO ?>
 <!--
 -				Updated logo with company logo.
@@ -85,27 +85,25 @@ $pb_network_contact_form = get_option( 'pb_network_contact_form' );
 -
 -				SINCE v0.1
 -->
-
 				<ul class="footer__pressbooks__links__list">
-					<li><a href="https://books4languages.com/"><?php _e( 'Home', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://open.books4languages.com/multisite-index/"><?php _e( 'Site index', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/legal/"><?php _e( 'Legal', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/legal/privacy-policy/"><?php _e( 'Privacy', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/contact/"><?php _e( 'Contact', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://open.books4languages.com/register/your-membership/"><?php _e( 'Membership', 'pressbooks-book' ); ?></a> |</li>
-					<li><a href="https://books4languages.com/newsletter/"><?php _e( 'Newsletter', 'pressbooks-book' ); ?></a>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'home', 0);" href="https://books4languages.com/"><?php _e( 'Home', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'index', 0); "href="https://open.books4languages.com/multisite-index/"><?php _e( 'Site index', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'exercises', 0);" href="https://worksheet.books4languages.com/"><?php _e( 'Exercises', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'legal', 0);" href="https://books4languages.com/legal/"><?php _e( 'Legal', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'privacy', 0);" href="https://books4languages.com/legal/privacy-policy/"><?php _e( 'Privacy', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'forum', 0);" href="https://questions4languages.wordpress.com/"><?php _e( 'Forum', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'contact', 0);" href="https://books4languages.com/contact/"><?php _e( 'Contact', 'pressbooks-book' ); ?></a> |</li>
+					<li><a onclick="ga('send', 'event', 'footer', 'aldine', 'membership', 0);" href="https://open.books4languages.com/register/"><?php _e( 'Register', 'pressbooks-book' ); ?></a> </li>
 				</ul>
 			</div>
 			<div class="footer__pressbooks__social">
-				<a class="facebook" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books4Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
+				<a class="facebook" onclick="ga('send', 'event', 'footer', 'aldine', 'facebook', 0);" href="https://www.facebook.com/Books4Languages/" target="_blank" title="<?php _e( 'Books4Languages on Facebook', 'pressbooks-book' ); ?>" rel=”noopener”>
 						<img id="facebook-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 24px; height: 24px;;
 			    	background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -10px -74px;" alt="facebook bfl">
 					<span class="screen-reader-text"><?php _e( 'Books4Languages on Facebook', 'pressbooks-aldine' ); ?></span>
 				</a>
 
-				<a class="twitter" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books4Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
+				<a class="twitter" onclick="ga('send', 'event', 'footer', 'aldine', 'twitter', 0);" href="https://twitter.com/bookslanguages" target="_blank" title="<?php _e( 'Books4Languages on Twitter', 'pressbooks-book' ); ?>" rel=”noopener”>
 					<img id="twitter-logo" src="/wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/empty.gif" style="width: 24px; height: 24px;
 				    background: url('../wp-content/themes/books4languages-root-child-theme-for-pressbooks/assets/images/css_sprites.png') -74px -10px;" alt="twitter bfl">
 						<span class="screen-reader-text"><?php _e( 'Books4Languages on Twitter', 'pressbooks-aldine' ); ?></span>
